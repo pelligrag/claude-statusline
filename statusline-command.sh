@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# claude-statusline — Custom status line for Claude Code
+# claude-statusline - Custom status line for Claude Code
 # https://github.com/pelligrag/claude-statusline
 #
 # Output (2 lines):

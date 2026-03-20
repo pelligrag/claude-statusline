@@ -11,14 +11,14 @@ Powered by [ccusage](https://github.com/ryoppippi/ccusage).
 ████░░░░░░░░░░░░░░░░ 24% of 5h limit | Resets 13:00 Rome
 ```
 
-**Line 1** — working directory, git branch/status, model, burn rate indicator, context window usage
+**Line 1** -working directory, git branch/status, model, burn rate indicator, context window usage
 
-**Line 2** — visual 5h rate limit bar (green/yellow/red) with reset time in your local timezone
+**Line 2** -visual 5h rate limit bar (green/yellow/red) with reset time in your local timezone
 
 ## Requirements
 
 - `python3` (3.9+ for `zoneinfo`)
-- `ccusage` — `npm i -g ccusage`
+- `ccusage` -`npm i -g ccusage`
 - `git` (optional, for branch display)
 
 ## Install
@@ -66,7 +66,7 @@ The 5h rate limit bar changes color based on usage:
 | Usage   | Color  |
 |---------|--------|
 | < 50%   | 🟢 Green  |
-| 50–79%  | 🟡 Yellow |
+| 50-79%  | 🟡 Yellow |
 | ≥ 80%   | 🔴 Red    |
 
 ### Disable cost display
